@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/minesweeper_mc.dir/main.cpp.o CMakeFiles/minesweeper_mc.dir/solver.cpp.o -o minesweeper_mc 
