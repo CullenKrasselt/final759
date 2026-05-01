@@ -1,0 +1,24 @@
+=== CUDA Monte Carlo Minesweeper Solver ===
+
+--- Win Rate by Board Size (500 samples/move, 100 games) ---
+beginner (9x9, 10 mines):
+intermediate (16x16, 40 mines):
+expert (16x30, 99 mines):
+
+--- Throughput Scaling by Sample Count (9x9, 10 mines, 50 games) ---
+samples=100:
+samples=250:
+samples=500:
+samples=1000:
+samples=2500:
+samples=5000:
+samples=10000:
+
+--- Throughput Scaling by Sample Count (16x30, 99 mines, 20 games) ---
+samples=100:
+samples=250:
+samples=500:
+samples=1000:
+samples=2500:
+samples=5000:
+samples=10000:

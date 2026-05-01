@@ -1,12 +1,12 @@
 #!/usr/bin/env zsh
 #SBATCH -p instruction
 #SBATCH -J MC_openmp
-#SBATCH -t 60
 #SBATCH -c 8
 #SBATCH -o openmp.out -e openmp.err
 #SBATCH --mem=4G
 
-cd /srv/home/krasselt/repo759/final759/cpp/
+cd /srv/home/krasselt/final759/cpp/
+rm -rf build build_omp
 
 # Build with OpenMP enabled — uncomment the three lines in CMakeLists.txt first,
 # or pass the flags directly here via an override:

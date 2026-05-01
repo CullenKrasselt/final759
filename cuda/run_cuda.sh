@@ -1,14 +1,14 @@
 #!/usr/bin/env zsh
 #SBATCH -p instruction
 #SBATCH -J MC_cuda
-#SBATCH -t 60
 #SBATCH --gres=gpu:1 -c 1
 #SBATCH -o cuda.out -e cuda.err
 #SBATCH --mem=8G
 
 module load nvidia/cuda/13.0.0
 
-cd /srv/home/krasselt/repo759/final759/cpp/
+cd /srv/home/krasselt/final759/cuda/
+rm -rf build_cuda
 
 # Build CUDA target
 cmake -S . -B build_cuda -DCMAKE_BUILD_TYPE=Release > /dev/null

@@ -1,0 +1,63 @@
+=== Sequential: Throughput Scaling (9x9, 10 mines, 50 games) ===
+samples=100:
+  Games: 1/50  Wins: 1  Games: 2/50  Wins: 2  Games: 3/50  Wins: 3  Games: 4/50  Wins: 4  Games: 5/50  Wins: 5  Games: 6/50  Wins: 6  Games: 7/50  Wins: 7  Games: 8/50  Wins: 8  Games: 9/50  Wins: 9  Games: 10/50  Wins: 10  Games: 11/50  Wins: 11  Games: 12/50  Wins: 12  Games: 13/50  Wins: 13  Games: 14/50  Wins: 14  Games: 15/50  Wins: 15  Games: 16/50  Wins: 16  Games: 17/50  Wins: 17  Games: 18/50  Wins: 18  Games: 19/50  Wins: 19  Games: 20/50  Wins: 20  Games: 21/50  Wins: 21  Games: 22/50  Wins: 22  Games: 23/50  Wins: 23  Games: 24/50  Wins: 24  Games: 25/50  Wins: 25  Games: 26/50  Wins: 26  Games: 27/50  Wins: 27  Games: 28/50  Wins: 28  Games: 29/50  Wins: 29  Games: 30/50  Wins: 30  Games: 31/50  Wins: 31  Games: 32/50  Wins: 32  Games: 33/50  Wins: 33  Games: 34/50  Wins: 34  Games: 35/50  Wins: 35  Games: 36/50  Wins: 36  Games: 37/50  Wins: 37  Games: 38/50  Wins: 38  Games: 39/50  Wins: 39  Games: 40/50  Wins: 40  Games: 41/50  Wins: 41  Games: 42/50  Wins: 42  Games: 43/50  Wins: 43  Games: 44/50  Wins: 44  Games: 45/50  Wins: 45  Games: 46/50  Wins: 46  Games: 47/50  Wins: 47  Games: 48/50  Wins: 48  Games: 49/50  Wins: 49  Games: 50/50  Wins: 50
+
+Benchmark (9x9, 10 mines, 100 samples/game)
+  Win rate  : 50/50  (100.0%)
+  Total time: 1.15s  (0.02s/game)
+samples=250:
+  Games: 1/50  Wins: 1  Games: 2/50  Wins: 2  Games: 3/50  Wins: 2  Games: 4/50  Wins: 3  Games: 5/50  Wins: 4  Games: 6/50  Wins: 5  Games: 7/50  Wins: 6  Games: 8/50  Wins: 7  Games: 9/50  Wins: 8  Games: 10/50  Wins: 9  Games: 11/50  Wins: 10  Games: 12/50  Wins: 10  Games: 13/50  Wins: 11  Games: 14/50  Wins: 12  Games: 15/50  Wins: 13  Games: 16/50  Wins: 14  Games: 17/50  Wins: 15  Games: 18/50  Wins: 16  Games: 19/50  Wins: 17  Games: 20/50  Wins: 18  Games: 21/50  Wins: 19  Games: 22/50  Wins: 20  Games: 23/50  Wins: 21  Games: 24/50  Wins: 22  Games: 25/50  Wins: 23  Games: 26/50  Wins: 24  Games: 27/50  Wins: 25  Games: 28/50  Wins: 26  Games: 29/50  Wins: 27  Games: 30/50  Wins: 28  Games: 31/50  Wins: 29  Games: 32/50  Wins: 30  Games: 33/50  Wins: 31  Games: 34/50  Wins: 32  Games: 35/50  Wins: 32  Games: 36/50  Wins: 33  Games: 37/50  Wins: 34  Games: 38/50  Wins: 35  Games: 39/50  Wins: 36  Games: 40/50  Wins: 37  Games: 41/50  Wins: 38  Games: 42/50  Wins: 39  Games: 43/50  Wins: 40  Games: 44/50  Wins: 41  Games: 45/50  Wins: 42  Games: 46/50  Wins: 43  Games: 47/50  Wins: 44  Games: 48/50  Wins: 45  Games: 49/50  Wins: 46  Games: 50/50  Wins: 46
+
+Benchmark (9x9, 10 mines, 250 samples/game)
+  Win rate  : 46/50  (92.0%)
+  Total time: 2.70s  (0.05s/game)
+samples=500:
+  Games: 1/50  Wins: 1  Games: 2/50  Wins: 2  Games: 3/50  Wins: 3  Games: 4/50  Wins: 4  Games: 5/50  Wins: 5  Games: 6/50  Wins: 6  Games: 7/50  Wins: 7  Games: 8/50  Wins: 8  Games: 9/50  Wins: 9  Games: 10/50  Wins: 10  Games: 11/50  Wins: 11  Games: 12/50  Wins: 12  Games: 13/50  Wins: 13  Games: 14/50  Wins: 14  Games: 15/50  Wins: 15  Games: 16/50  Wins: 16  Games: 17/50  Wins: 17  Games: 18/50  Wins: 18  Games: 19/50  Wins: 19  Games: 20/50  Wins: 20  Games: 21/50  Wins: 21  Games: 22/50  Wins: 22  Games: 23/50  Wins: 23  Games: 24/50  Wins: 24  Games: 25/50  Wins: 25  Games: 26/50  Wins: 25  Games: 27/50  Wins: 26  Games: 28/50  Wins: 27  Games: 29/50  Wins: 28  Games: 30/50  Wins: 29  Games: 31/50  Wins: 30  Games: 32/50  Wins: 31  Games: 33/50  Wins: 32  Games: 34/50  Wins: 33  Games: 35/50  Wins: 34  Games: 36/50  Wins: 35  Games: 37/50  Wins: 36  Games: 38/50  Wins: 36  Games: 39/50  Wins: 36  Games: 40/50  Wins: 37  Games: 41/50  Wins: 38  Games: 42/50  Wins: 39  Games: 43/50  Wins: 40  Games: 44/50  Wins: 41  Games: 45/50  Wins: 42  Games: 46/50  Wins: 43  Games: 47/50  Wins: 44  Games: 48/50  Wins: 45  Games: 49/50  Wins: 46  Games: 50/50  Wins: 47
+
+Benchmark (9x9, 10 mines, 500 samples/game)
+  Win rate  : 47/50  (94.0%)
+  Total time: 5.32s  (0.11s/game)
+samples=1000:
+  Games: 1/50  Wins: 1  Games: 2/50  Wins: 2  Games: 3/50  Wins: 3  Games: 4/50  Wins: 4  Games: 5/50  Wins: 5  Games: 6/50  Wins: 6  Games: 7/50  Wins: 7  Games: 8/50  Wins: 8  Games: 9/50  Wins: 9  Games: 10/50  Wins: 10  Games: 11/50  Wins: 11  Games: 12/50  Wins: 12  Games: 13/50  Wins: 13  Games: 14/50  Wins: 14  Games: 15/50  Wins: 15  Games: 16/50  Wins: 16  Games: 17/50  Wins: 17  Games: 18/50  Wins: 18  Games: 19/50  Wins: 19  Games: 20/50  Wins: 20  Games: 21/50  Wins: 21  Games: 22/50  Wins: 22  Games: 23/50  Wins: 23  Games: 24/50  Wins: 24  Games: 25/50  Wins: 24  Games: 26/50  Wins: 25  Games: 27/50  Wins: 26  Games: 28/50  Wins: 27  Games: 29/50  Wins: 28  Games: 30/50  Wins: 29  Games: 31/50  Wins: 30  Games: 32/50  Wins: 31  Games: 33/50  Wins: 32  Games: 34/50  Wins: 33  Games: 35/50  Wins: 34  Games: 36/50  Wins: 35  Games: 37/50  Wins: 36  Games: 38/50  Wins: 37  Games: 39/50  Wins: 38  Games: 40/50  Wins: 39  Games: 41/50  Wins: 40  Games: 42/50  Wins: 41  Games: 43/50  Wins: 42  Games: 44/50  Wins: 43  Games: 45/50  Wins: 44  Games: 46/50  Wins: 45  Games: 47/50  Wins: 46  Games: 48/50  Wins: 46  Games: 49/50  Wins: 46  Games: 50/50  Wins: 47
+
+Benchmark (9x9, 10 mines, 1000 samples/game)
+  Win rate  : 47/50  (94.0%)
+  Total time: 11.29s  (0.23s/game)
+samples=2500:
+  Games: 1/50  Wins: 1  Games: 2/50  Wins: 2  Games: 3/50  Wins: 3  Games: 4/50  Wins: 3  Games: 5/50  Wins: 4  Games: 6/50  Wins: 5  Games: 7/50  Wins: 5  Games: 8/50  Wins: 6  Games: 9/50  Wins: 7  Games: 10/50  Wins: 8  Games: 11/50  Wins: 9  Games: 12/50  Wins: 10  Games: 13/50  Wins: 11  Games: 14/50  Wins: 12  Games: 15/50  Wins: 13  Games: 16/50  Wins: 14  Games: 17/50  Wins: 15  Games: 18/50  Wins: 16  Games: 19/50  Wins: 17  Games: 20/50  Wins: 18  Games: 21/50  Wins: 19  Games: 22/50  Wins: 20  Games: 23/50  Wins: 21  Games: 24/50  Wins: 22  Games: 25/50  Wins: 23  Games: 26/50  Wins: 24  Games: 27/50  Wins: 25  Games: 28/50  Wins: 26  Games: 29/50  Wins: 27  Games: 30/50  Wins: 28  Games: 31/50  Wins: 29  Games: 32/50  Wins: 30  Games: 33/50  Wins: 31  Games: 34/50  Wins: 31  Games: 35/50  Wins: 32  Games: 36/50  Wins: 33  Games: 37/50  Wins: 34  Games: 38/50  Wins: 35  Games: 39/50  Wins: 36  Games: 40/50  Wins: 37  Games: 41/50  Wins: 38  Games: 42/50  Wins: 39  Games: 43/50  Wins: 40  Games: 44/50  Wins: 41  Games: 45/50  Wins: 42  Games: 46/50  Wins: 43  Games: 47/50  Wins: 44  Games: 48/50  Wins: 45  Games: 49/50  Wins: 46  Games: 50/50  Wins: 47
+
+Benchmark (9x9, 10 mines, 2500 samples/game)
+  Win rate  : 47/50  (94.0%)
+  Total time: 22.05s  (0.44s/game)
+samples=5000:
+  Games: 1/50  Wins: 1  Games: 2/50  Wins: 2  Games: 3/50  Wins: 3  Games: 4/50  Wins: 4  Games: 5/50  Wins: 5  Games: 6/50  Wins: 6  Games: 7/50  Wins: 7  Games: 8/50  Wins: 8  Games: 9/50  Wins: 9  Games: 10/50  Wins: 10  Games: 11/50  Wins: 11  Games: 12/50  Wins: 12  Games: 13/50  Wins: 13  Games: 14/50  Wins: 14  Games: 15/50  Wins: 15  Games: 16/50  Wins: 16  Games: 17/50  Wins: 17  Games: 18/50  Wins: 18  Games: 19/50  Wins: 19  Games: 20/50  Wins: 20  Games: 21/50  Wins: 21  Games: 22/50  Wins: 22  Games: 23/50  Wins: 23  Games: 24/50  Wins: 24  Games: 25/50  Wins: 25  Games: 26/50  Wins: 26  Games: 27/50  Wins: 27  Games: 28/50  Wins: 28  Games: 29/50  Wins: 28  Games: 30/50  Wins: 29  Games: 31/50  Wins: 30  Games: 32/50  Wins: 31  Games: 33/50  Wins: 32  Games: 34/50  Wins: 33  Games: 35/50  Wins: 34  Games: 36/50  Wins: 35  Games: 37/50  Wins: 35  Games: 38/50  Wins: 36  Games: 39/50  Wins: 37  Games: 40/50  Wins: 38  Games: 41/50  Wins: 39  Games: 42/50  Wins: 40  Games: 43/50  Wins: 41  Games: 44/50  Wins: 41  Games: 45/50  Wins: 42  Games: 46/50  Wins: 43  Games: 47/50  Wins: 44  Games: 48/50  Wins: 45  Games: 49/50  Wins: 46  Games: 50/50  Wins: 47
+
+Benchmark (9x9, 10 mines, 5000 samples/game)
+  Win rate  : 47/50  (94.0%)
+  Total time: 44.56s  (0.89s/game)
+
+=== Sequential: Throughput Scaling (16x30, 99 mines, 20 games) ===
+samples=100:
+  Games: 1/20  Wins: 0  Games: 2/20  Wins: 0  Games: 3/20  Wins: 0  Games: 4/20  Wins: 0  Games: 5/20  Wins: 0  Games: 6/20  Wins: 0  Games: 7/20  Wins: 0  Games: 8/20  Wins: 0  Games: 9/20  Wins: 0  Games: 10/20  Wins: 0  Games: 11/20  Wins: 0  Games: 12/20  Wins: 0  Games: 13/20  Wins: 0  Games: 14/20  Wins: 0  Games: 15/20  Wins: 0  Games: 16/20  Wins: 0  Games: 17/20  Wins: 0  Games: 18/20  Wins: 0  Games: 19/20  Wins: 0  Games: 20/20  Wins: 0
+
+Benchmark (16x30, 99 mines, 100 samples/game)
+  Win rate  : 0/20  (0.0%)
+  Total time: 2.86s  (0.14s/game)
+samples=250:
+  Games: 1/20  Wins: 0  Games: 2/20  Wins: 0  Games: 3/20  Wins: 0  Games: 4/20  Wins: 0  Games: 5/20  Wins: 0  Games: 6/20  Wins: 0  Games: 7/20  Wins: 0  Games: 8/20  Wins: 0  Games: 9/20  Wins: 0  Games: 10/20  Wins: 0  Games: 11/20  Wins: 0  Games: 12/20  Wins: 0  Games: 13/20  Wins: 0  Games: 14/20  Wins: 0  Games: 15/20  Wins: 0  Games: 16/20  Wins: 0  Games: 17/20  Wins: 0  Games: 18/20  Wins: 0  Games: 19/20  Wins: 0  Games: 20/20  Wins: 0
+
+Benchmark (16x30, 99 mines, 250 samples/game)
+  Win rate  : 0/20  (0.0%)
+  Total time: 14.04s  (0.70s/game)
+samples=500:
+  Games: 1/20  Wins: 0  Games: 2/20  Wins: 0  Games: 3/20  Wins: 1  Games: 4/20  Wins: 1  Games: 5/20  Wins: 1  Games: 6/20  Wins: 1  Games: 7/20  Wins: 1  Games: 8/20  Wins: 1  Games: 9/20  Wins: 1  Games: 10/20  Wins: 1  Games: 11/20  Wins: 1  Games: 12/20  Wins: 1  Games: 13/20  Wins: 1  Games: 14/20  Wins: 2  Games: 15/20  Wins: 2  Games: 16/20  Wins: 2  Games: 17/20  Wins: 2  Games: 18/20  Wins: 2  Games: 19/20  Wins: 2  Games: 20/20  Wins: 2
+
+Benchmark (16x30, 99 mines, 500 samples/game)
+  Win rate  : 2/20  (10.0%)
+  Total time: 90.30s  (4.51s/game)
+samples=1000:
+  Games: 1/20  Wins: 0  Games: 2/20  Wins: 0  Games: 3/20  Wins: 0  Games: 4/20  Wins: 0  Games: 5/20  Wins: 0  Games: 6/20  Wins: 0  Games: 7/20  Wins: 1  Games: 8/20  Wins: 1  Games: 9/20  Wins: 1  Games: 10/20  Wins: 1  Games: 11/20  Wins: 1  Games: 12/20  Wins: 1  Games: 13/20  Wins: 2  Games: 14/20  Wins: 2  Games: 15/20  Wins: 2  Games: 16/20  Wins: 2  Games: 17/20  Wins: 2  Games: 18/20  Wins: 2  Games: 19/20  Wins: 2  Games: 20/20  Wins: 2
+
+Benchmark (16x30, 99 mines, 1000 samples/game)
+  Win rate  : 2/20  (10.0%)
+  Total time: 274.05s  (13.70s/game)

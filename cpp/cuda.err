@@ -1,0 +1,24 @@
+CMake Error at CMakeLists.txt:29 (target_link_libraries):
+  Cannot specify link libraries for target "minesweeper_cuda" which is not
+  built by this project.
+
+
+gmake: Makefile: No such file or directory
+gmake: *** No rule to make target 'Makefile'.  Stop.
+/var/spool/slurmd/job349855/slurm_script:23: no such file or directory: ./build_cuda/minesweeper_cuda
+/var/spool/slurmd/job349855/slurm_script:26: no such file or directory: ./build_cuda/minesweeper_cuda
+/var/spool/slurmd/job349855/slurm_script:29: no such file or directory: ./build_cuda/minesweeper_cuda
+/var/spool/slurmd/job349855/slurm_script:37: no such file or directory: ./build_cuda/minesweeper_cuda
+/var/spool/slurmd/job349855/slurm_script:37: no such file or directory: ./build_cuda/minesweeper_cuda
+/var/spool/slurmd/job349855/slurm_script:37: no such file or directory: ./build_cuda/minesweeper_cuda
+/var/spool/slurmd/job349855/slurm_script:37: no such file or directory: ./build_cuda/minesweeper_cuda
+/var/spool/slurmd/job349855/slurm_script:37: no such file or directory: ./build_cuda/minesweeper_cuda
+/var/spool/slurmd/job349855/slurm_script:37: no such file or directory: ./build_cuda/minesweeper_cuda
+/var/spool/slurmd/job349855/slurm_script:37: no such file or directory: ./build_cuda/minesweeper_cuda
+/var/spool/slurmd/job349855/slurm_script:45: no such file or directory: ./build_cuda/minesweeper_cuda
+/var/spool/slurmd/job349855/slurm_script:45: no such file or directory: ./build_cuda/minesweeper_cuda
+/var/spool/slurmd/job349855/slurm_script:45: no such file or directory: ./build_cuda/minesweeper_cuda
+/var/spool/slurmd/job349855/slurm_script:45: no such file or directory: ./build_cuda/minesweeper_cuda
+/var/spool/slurmd/job349855/slurm_script:45: no such file or directory: ./build_cuda/minesweeper_cuda
+/var/spool/slurmd/job349855/slurm_script:45: no such file or directory: ./build_cuda/minesweeper_cuda
+/var/spool/slurmd/job349855/slurm_script:45: no such file or directory: ./build_cuda/minesweeper_cuda
