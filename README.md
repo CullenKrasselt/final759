@@ -133,3 +133,14 @@ with CUDA achieving ~8× speedup over OpenMP at 5000 samples/move.
 Speedup plateaus at 2–4 threads and degrades at 8 threads due to `schedule(dynamic)`
 overhead dominating when individual sample tasks are short. This is a known
 limitation of dynamic scheduling at fine task granularity.
+
+### Summary
+
+| Criterion | Sequential | OpenMP | CUDA |
+|---|---|---|---|
+| **Correctness** | ✓ | ✓ | ✓ |
+| **Best at small boards / low samples** | ✓ | — | — |
+| **Best at medium boards** | — | ✓ | — |
+| **Best at large boards / high samples** | — | — | ✓ |
+| **Simplest implementation** | ✓ | — | — |
+| **Requires GPU** | No | No | Yes |
